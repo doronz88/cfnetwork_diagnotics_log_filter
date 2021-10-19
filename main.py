@@ -21,7 +21,9 @@ def parse_fields(message: str):
             continue
 
         line = line.strip()
-        k, v = line.split(': ', 1)
+        k, v = line.split(':', 1)
+        k = k.strip()
+        v = v.strip()
         result[k] = v
 
     return result
