@@ -1,4 +1,0 @@
-click
-coloredlogs
-pygments
-pymobiledevice3
